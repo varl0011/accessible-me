@@ -8,11 +8,18 @@
   <title>Accessible Me</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&family=Stick+No+Bills:wght@300&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+  <div class="skip-links">
+    <li><a href="#main-cont">Skip to JamBox introduction</a></li>
+    <li><a href="#tycheInfo">Skip to the owner information</a></li>
+    <li><a href="">Skip to address</a></li>
+    <li><a href="">Skip to contact us</a></li>
+  </div>
   <div class="container">
     <div class="site-header">
       <h1>Jam Box Studios</h1>
@@ -24,12 +31,17 @@
           <li><a href="#">Studio</a></li>
         </ul>
       </div>
-      <img src="https://placecats.com/millie/300/150" class="banner">
+      <img src="https://placecats.com/millie/300/150" class="banner" aria-details="cat-banner" alt="a cat banner">
     </div>
+    <main role="main" id="main-cont">
     <div class="main-content">
       <h1>Welcome to Jam Box</h1>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa
+        eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio
+        quia veritatis.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam
+        omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto
+        error voluptatibus.</p>
       <div class="owner">
         <h1>Meet the owner</h1>
         <ul>
@@ -59,6 +71,7 @@
         </form>
       </div>
     </div>
+  </main>
     <div class="site-footer">
       &copy; 2021 Jam Box Studios
     </div>
